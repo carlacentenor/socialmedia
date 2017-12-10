@@ -13,6 +13,6 @@ El diseño lo puedes realizar como mejor te parezca, pero debes mantener la estr
 Para este reto se trabajo el tema de Social Media y el resultado es el siguiente.
 El uso de grillas es muy importante para la maquetación , de igual manera el manejo de media querys ayudaron a la visibilidad del icono de menú cuando se desea abrir la web en dispositivos moviles.
 
-![Con titulo](assets/docs/socialmedia.png "titulo")
+![Con titulo](assets/docs/social.png "titulo")
 ![Con titulo](assets/docs/responsive2.png "titulo")
 
