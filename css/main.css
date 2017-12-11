@@ -298,6 +298,7 @@ h3,h2 {
 }
 .box-text{
        height: auto;
+       padding: 1rem 0;
 }
 
 button span {
