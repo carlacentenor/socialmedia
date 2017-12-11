@@ -40,6 +40,14 @@
   font-size: 2.5rem;
 }
 
+.nav-mobile {
+  width: 3rem;
+  height: 3rem;
+  float: right;
+  padding: .6rem;
+  margin: 0.3rem;
+  font-size: 28px;
+}
 
   .col-xs-1 {
     width: 8.33333333%;
@@ -86,6 +94,30 @@
     display: none;
     
 }
+
+
+.menu-mobile {
+  width: 10rem;
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+.menu-mobile li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.enabled-menu {
+  display: block;
+}
+.disabled-menu{
+  display: none;
+}
+
+
+
 .height {
   height: auto;
   padding: 25px;
@@ -112,6 +144,22 @@
 }
 
 @media (min-width: 768px) {
+.nav-mobile {
+  width: 3rem;
+  height: 3rem;
+  float: right;
+  padding: .6rem;
+  margin: 0.3rem;
+  font-size: 28px;
+}
+
+
+  .enabled-menu {
+    display: block;
+  }
+  .disabled-menu{
+    display: none;
+  }
   .height {
     height: auto;
     padding: 25px;
@@ -160,6 +208,20 @@
     .container-text :last-child {
       font-size: 3.5rem;
     }
+
+    
+.menu-mobile {
+  width: 10rem;
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+.menu-mobile li {
+  list-style: none;
+  padding: 1rem;
+}
   }
 
   [class*='col-']{
@@ -173,12 +235,14 @@
 
 
   @media (min-width: 992px) {
+    
     .nav-menu {
       display: block;
     }
 
     .nav-mobile {
       display: none;
+      
     }
 
     .height {
@@ -231,6 +295,9 @@
     }
     .col-md-12 {
       width: 100%;
+    }
+    .menu-mobile {
+      display: none;
     }
   }
 
@@ -361,7 +428,7 @@ nav {
 
 
 
-nav li {
+.nav-menu li {
   list-style: none;
   display: inline-block;
   padding: 1.3rem 1.5rem ;
@@ -408,6 +475,14 @@ nav li {
 
 .nav-menu {
   float: right;
+}
+
+
+
+
+
+main {
+  position: relative;
 }
 
 /*Fin Menu navegación*/
