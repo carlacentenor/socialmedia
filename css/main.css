@@ -9,7 +9,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    
     width: 100%;
     
 }
@@ -30,6 +30,17 @@
     
     height: 20vh;
   }
+    
+.container-text :first-child {
+  font-size: 2rem;
+  
+}
+
+.container-text :last-child {
+  font-size: 2.5rem;
+}
+
+
   .col-xs-1 {
     width: 8.33333333%;
   }
@@ -141,6 +152,14 @@
     .col-sm-12 {
       width: 100%;
     }
+    .container-text :first-child {
+      font-size: 6rem;
+      
+    }
+    
+    .container-text :last-child {
+      font-size: 3.5rem;
+    }
   }
 
   [class*='col-']{
@@ -165,6 +184,15 @@
     .height {
       height: 100vh;
       padding: 25px;
+      }
+
+      .container-text :first-child {
+        font-size: 6rem;
+        
+      }
+      
+      .container-text :last-child {
+        font-size: 3.5rem;
       }
 
 
@@ -312,14 +340,7 @@ ul li:hover {
   }
 
   
-.container-text :first-child {
-  font-size: 6rem;
-  
-}
 
-.container-text :last-child {
-  font-size: 3.5rem;
-}
 
 .container-text {
   padding: 10rem 0;
