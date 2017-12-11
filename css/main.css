@@ -182,8 +182,8 @@
     }
 
     .height {
-      height: 100vh;
-      padding: 25px;
+      height: auto;
+      padding: 1.5rem 3rem;
       }
 
       .container-text :first-child {
@@ -251,7 +251,7 @@ header{
 footer {
 
     width: 100%;
-    height: autos;
+    height: auto;
     background-color: #343a40;
     color: white;
 }
@@ -260,7 +260,7 @@ footer {
 
 .style-box {
     height: auto;
-    padding: 20px;
+    padding: 1.5rem 3rem;
 }
 button {
     border: none;
