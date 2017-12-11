@@ -49,6 +49,11 @@
   font-size: 28px;
 }
 
+
+.nav-mobile:hover{
+  color: #2db3a8;  
+}
+
   .col-xs-1 {
     width: 8.33333333%;
   }
@@ -104,9 +109,16 @@
   right: 0;
   color: white;
 }
+
+
+
 .menu-mobile li {
   list-style: none;
   padding: 1rem;
+}
+
+.menu-mobile li span {
+  padding: .5rem;
 }
 
 .enabled-menu {
@@ -153,6 +165,9 @@
   font-size: 28px;
 }
 
+.nav-mobile:hover{
+  color: #2db3a8;  
+}
 
   .enabled-menu {
     display: block;
